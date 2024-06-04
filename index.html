@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All About Me</title>
-    <link rel="stylesheet" href="main.css"/>
+    <title>Table About Me</title>
+    <script src="JS/tableScript.js"></script>
+    <link rel="stylesheet" href="Style/style.css"/>
 </head>
 
 <body>
-    <header>
-        <h1>Jess Bayer</h1>
-    </header>
+    <h1>About Jess Bayer</h1>
 
-    <p class="description">Attending the University of Advancing Technology</p>
-    <p class="description">Majoring in Game Programming</p>
-    <p class="description">Email: jesbayer@uat.edu</p>
-    <p class="description">Graduating by April/May 2025</p>
+    <div id="divTableContainer">
+        <table id="tableData">
+            <tr>
+                <!-- This table has three columns -->
+                <th>School</th>
+                <th>Major</th>
+                <th>Email</th>
+                <th>Graduation Date</th>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Add JS to the page -->
+    <script>
+        buildTable(data);
+    </script>
 </body>
-
 </html>
