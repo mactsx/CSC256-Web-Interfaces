@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Create the header for the web page -->
+    <header>
+        <h1>Welcome to the Gallary of My Artwork!</h1>
+        <h2>- Use the Arrows to Navigate -</h2>
+    </header>
+
+    <!-- Create a div that will display the slideshow -->
+    <div class="centered">
+        <!-- Set the initial image -->
+        <img src="./Images/geisha.png" id="imgPicture" alt="Geisha">
+
+        <!-- Add in the navigation links -->
+        <br>
+        <a id="anchorPrevLink" href="#">&lt;&lt; Previous</a>
+        <a id="anchorNextLink" href="#">Next &gt;&gt;</a>
+    </div>
+
+    <!-- Link the script that will display and cycle through the photos in the slideshow -->
+    <script src="slideshowScript.js"></script>
+
+</body>
+</html>

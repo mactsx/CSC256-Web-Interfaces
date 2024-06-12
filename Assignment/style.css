@@ -1,0 +1,21 @@
+/* Add styles to the web page */
+body {
+    background-color: gainsboro;
+    text-align: center;
+}
+#imgPicture {
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(195, 195, 195);
+}
+a {
+    text-decoration: none;
+    color: rgb(128, 27, 61);
+}
+a:hover {
+    text-decoration: underline;
+}
+.centered {
+    text-align: center;
+}
