@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Add a header to the page -->
+    <header>
+        <h1>Favorite Quotes</h1>
+    </header>
+
+    <!-- Create a container for the text entry field -->
+    <main class="container">
+        <form id="favQuote" onsubmit="addQuote(event);">
+            <!-- Add label for text box -->
+            <label for="txtQuote">Type Quote:</label>
+            <!-- Add textbox -->
+            <input type="text" id="txtQuote" name="txtQuote" placeholder="Quote" required>
+            <!-- Add submit button -->
+            <button type="submit">Add Quote</button>
+        </form>
+
+        <!-- Add a section for the array to display data -->
+        <div id="divQuoteList"></div>
+        <button onclick="clearList();">Clear List</button>
+    </main>
+
+    <!-- Link the Javascript -->
+    <script src="./js/arrayScript.js"></script>
+
+    
+</body>
+</html>
