@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Sheet</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Add a header to the page -->
+    <header>
+        <h1>DnD Character Sheet</h1>
+    </header>
+
+    <!-- Create a container for the text entry field -->
+    <main class="container">
+        <!-- Form where the data get entered -->
+        <form id="frmGameDetails">
+            <label for="txtCharName">Character Name: </label>
+            <input type="text" id="txtCharName" name="txtCharName" required>
+
+            <label for="txtRace">Race: </label>
+            <input type="text" id="txtRace" name="txtRace" required>
+
+            <label for="txtClass">Class: </label>
+            <input type="text" id="txtClass" name="txtClass" required>
+
+            <label for="txtWeapon">Weapon: </label>
+            <input type="text" id="txtWeapon" name="txtWeapon" required>
+
+            <label for="txtAlign">Alignment: </label>
+            <input type="text" id="txtAlign" name="txtAlign" required>
+            
+            <!-- Submit button -->
+            <button type="submit" onclick="submitForm();">Submit</button>
+        </form>
+
+        <!-- Add a section for the character information to be displayed -->
+        <div id="charInfo">
+            <h2>Character Information</h2>
+            <textarea id="txtAOutput" readonly></textarea>
+        </div> 
+    </main>
+
+    <!-- Link the Javascript -->
+    <script src="./js/formScript.js"></script>
+
+    
+</body>
+</html>
