@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard</title>
+    <link href="./css/chessboard.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Chessboard or Checkers</h1>
+    </header>
+
+    <!-- Area for the chessboard -->
+    <main>
+        <div id="divChessboard"></div>
+    </main>
+
+    <!-- Link the JavaScript -->
+    <script src="./js/chessboard.js"></script>
+
+    <!-- Call the build function and send the div using id -->
+    <script>
+        // Assign the chessboard variable to the div using the id
+        var chessboard = document.getElementById("divChessboard");
+
+        // Create the board
+        createBoard(chessboard);
+    </script>
+
+</body>
+</html>

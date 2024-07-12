@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(252, 225, 225);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    color: black;
+}
+#divChessboard {
+    width: 600px;
+    height: 600px;
+    border: 9px solid black;
+    margin: 0 auto;
+}
+.chessSqr {
+    float: left;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(252, 225, 225);
+}
+h1 {
+    padding: 15px;
+}
