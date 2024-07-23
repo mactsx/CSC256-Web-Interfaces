@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkersboard</title>
+    <link href="./css/checkersboard.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Checkers!</h1>
+    </header>
+
+    <!-- Area for the checkersboard -->
+    <main>
+        <div id="divCheckersboard"></div>
+        <span id="selectedSqr" style="display: none;"></span>
+    </main>
+
+    <!-- Link the JavaScript -->
+    <script src="./js/checkersboard.js"></script>
+
+    <!-- Call the build function and send the div using id -->
+    <script>
+        // Assign the checkersboard variable to the div using the id
+        var checkersboard = document.getElementById("divCheckersboard");
+
+        // Create the board
+        createBoard(checkersboard);
+    </script>
+
+</body>
+</html>

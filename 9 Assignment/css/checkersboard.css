@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(252, 225, 225);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    color: black;
+}
+#divCheckersboard {
+    width: 600px;
+    height: 600px;
+    border: 9px solid black;
+    margin: 0 auto;
+}
+.checkersSqr {
+    float: left;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(252, 225, 225);
+}
+h1 {
+    padding: 15px;
+}
+.checker {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-radius: 50%;
+    
+}
+.checker-w {
+    background-color: rgb(255, 64, 64);
+    box-shadow: inset -4px -4px  rgb(115, 16, 16);
+}
+.checker-b {
+    background-color: rgb(86, 0, 0);
+    box-shadow: inset -4px -4px  rgb(23, 2, 2);
+}
